@@ -24,7 +24,7 @@ optional string document-title:
 optional string document-description:
 ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
 optional string site-name: Midnight
-optional ftd.image-src site-logo: $fastn-logo
+optional ftd.image-src site-logo:
 boolean full-width: true
 boolean blog: false
 boolean show-banner: false
