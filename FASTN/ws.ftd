@@ -1,3 +1,5 @@
+-- import: cs
+-- import: typo
 -- import: fastn-community.github.io/midnight-storm-ws/tnc
 export: terms
 -- import: theme
@@ -60,6 +62,8 @@ breadcrumb: $page.breadcrumb
 login-button: $page.login-button
 logo-width: $page.logo-width
 logo-height: $page.logo-height
+colors: $cs.main
+types: $typo.types
 
 -- theme.page.footer:
 
