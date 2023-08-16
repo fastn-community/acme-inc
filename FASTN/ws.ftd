@@ -1,3 +1,5 @@
+-- import: fastn-community.github.io/midnight-storm-ws/tnc
+export: terms
 -- import: theme
 export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item
 

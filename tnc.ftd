@@ -1,8 +1,8 @@
--- ws.page.popup:
+-- component terms:
 
 -- ws.tc-popup:
-title: TERMS AND CONDITIONS
-head: May 04, 2022
+title: Terms and Conditions
+head: May 04, 2035
 
 The following Terms and Conditions is a legal document being executed between
 you and FifthTry that outlines both your obligations and the company’s. It is
@@ -310,4 +310,4 @@ If you have any questions about these Terms, please contact us at {info}
 
 -- end: ws.tc-popup
 
--- end: ws.page.popup
+-- end: terms
