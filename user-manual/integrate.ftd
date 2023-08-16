@@ -1,0 +1,270 @@
+-- site-doc.doc-home: Add landing page to your existing `fastn` site
+show-tabs: false
+github-url: https://github.com/fastn-community/midnight-storm-spa
+site-title: Create a site with landing page
+
+
+This step-by-step guide will help you to `integrate` your personalised 
+landing page into your existing `fastn repository` on GitHub. 
+This entirely runs on the browser. Simply follow along the steps to integrate.
+
+
+-- ftd.desktop:
+
+-- ftd.column:
+width: fill-container
+
+-- spa.h3: `Step 1:` Sign In to your GitHub account
+
+- [Sign In]((https://github.com/login)) to your GitHub account to access your
+  `fastn repository`
+
+-- spa.h3: `Step 2:` Identify the existing `fastn repository` on GitHub
+
+- Select the existing `fastn repository` on GitHub to which you want to
+  integrate the landing page
+
+You can find the fastn repository under `Repositories` on GitHub
+
+-- spa.h3: `Step 3:` Navigate to the `FASTN.ftd` document 
+
+- Navigate to the `FASTN.ftd` file of the selected project and click to open it.
+
+/-- ftd.image:
+src: $assets.files.images.navigate-to-fastn.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Click on the `edit` icon (as shown below) to make the file editable
+
+/-- ftd.image:
+src: $assets.files.images.edit-fastn-file.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- spa.h3: `Step 4:` Add below line inside your `FASTN.ftd` document
+
+- Copy the following code
+
+-- spa.code:
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/midnight-storm-spa
+
+-- site-doc.markdown:
+
+- Paste the code in the `FASTN.ftd` file along with other dependencies, if any
+
+
+/-- ftd.image:
+src: $assets.files.images.add-dependency.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Click on the button `Commit Changes...`
+
+A pop-up will appear.
+
+/-- ftd.image:
+src: $assets.files.images.commit-popup.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+You can check the Commit message and other details on the commit status bar
+
+/-- ftd.image:
+src: $assets.files.images.status-bar.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Refresh the browser to check if the commit workflow ran successfully. You 
+  will see a green tick
+
+/-- ftd.image:
+src: $assets.files.images.green-tick.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16  
+
+
+-- spa.h3: `Step 5:` Navigate to the document 
+
+
+- Open the document to which you want to integrate the landing page and 
+  display in the browser 
+
+  For example: If you want to integrate landing page in `index.ftd` file, 
+  open it. 
+
+-- ftd.image:
+src: $assets.files.images.navigate-ftd-doc.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Click on the `Edit` icon to make the selected `.ftd` file editable
+
+
+-- spa.h3: `Step 6:` Add below line inside your `.ftd` file
+
+- Copy the following import line
+
+-- spa.code:
+lang: ftd
+
+\-- import: fastn-community.github.io/misty-gray
+
+-- site-doc.markdown:
+
+- Paste the import line at the top of the file.
+
+If this is the only import line, then it goes at line 1 else it can be placed 
+below other already imported lines.
+
+-- ftd.text: Click Here to read - Benefits of importing packages at the top
+link: https://fastn.com/import-at-top/
+open-in-new-tab: true
+role: $inherited.types.copy-regular
+margin-vertical.px: 6
+
+
+/-- ftd.image:
+src: $assets.files.images.import-in-ftd.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+
+/-- spa.h3: `Step 7:` Add the following landing page in your project
+
+- Copy the code
+
+/-- spa.code:
+lang: ftd
+
+\-- business-card.details: John Doe
+company-name: John Doe Pvt. Ltd.
+title: Software Developer
+phone-no: +91 12345 99999
+email: john@johndoe.com
+address: 123, Block No. A-123, Times Sqaure, Bangalore - 123456
+logo: $assets.files.assets.ipsum-logo.svg
+company-slogan: If you can type you can code
+website: www.johndoe.com
+
+/-- site-doc.markdown:
+
+- Paste the code where you want your landing page to position
+
+You can position the card at the start, in between the document or at the end.
+
+In my case, I have added in between of the document after the third paragraph.
+
+/-- ftd.image:
+src: $assets.files.images.paste-business-card.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Commit the changes
+
+- Go to `Actions` tab and wait for the `pages build and deployment` to 
+  successfully complete
+
+- Once done, open the URL which you can find either through the `Settings > 
+Pages` or if you have already added it in the `About` section in the first 
+tab(Code tab)
+
+You will be able to see the default landing page in your fastn repository. 
+
+/-- ftd.image:
+src: $assets.files.images.default-business-card.png
+width: fill-container
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+
+-- spa.h3: `Step 8:` Personalise the landing page with your data
+
+- Edit the same `ftd` file
+
+- Edit the the values of the fields of the landing page and provide your 
+values to personalise it
+
+-- ftd.text: Learn how to upload your logo
+link: /create#upload-your-logo
+open-in-new-tab: true
+role: $inherited.types.copy-regular
+margin-bottom.px: 6
+
+/-- spa.code: Example
+lang: ftd
+
+\-- business-card.details: Ajit Garg
+company-name: FifthTry Pvt. Ltd.
+title: Devrel
+phone-no: +91 12345 99999
+email: ajit@fifthtry.com
+address: 123, Block No. A-123, Times Square, Bangalore - 123456
+logo: $assets.files.assets.fastn.svg
+company-slogan: If you can type you can code
+website: www.fastn.com
+
+-- spa.h3: Final Output
+
+/-- ftd.image:
+src: $assets.files.images.integrated-card-output.png
+width: fill-container
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+
+
+
+-- end: ftd.column
+
+-- end: ftd.desktop
+
+
+-- end: site-doc.doc-home
