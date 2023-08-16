@@ -3578,7 +3578,7 @@ align-self: end
 -- ftd.image:
 margin-right.px: 16
 margin-top.px: 16
-src: $assets.files.images.cross.png
+src: $assets.files.assets.cross.svg
 height.fixed.px: 14
 width: auto
 $on-click$: $ftd.set-bool($a = $tc-pop-up-status, v = false)
@@ -3652,7 +3652,7 @@ align-self: end
 -- ftd.image:
 margin-right.px: 8
 margin-top.px: 8
-src: $assets.files.images.cross.png
+src: $assets.files.assets.cross.svg
 height.fixed.px: 14
 width: auto
 $on-click$: $ftd.set-bool($a = $tc-pop-up-status, v = false)
