@@ -1,6 +1,5 @@
--- import: fastn-community.github.io/footer
--- import: ds
-export: footer,h0,h1,h2,h3,iframe,image,link,link-group,markdown,not-found-1,not-found-2,rendered,youtube,toc-title, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card
+-- import: spa
+export: footer,hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item
 
 -- ftd.image-src fastn-logo:
 light: https://fastn.com/-/fastn.com/images/fastn.svg
@@ -31,12 +30,13 @@ boolean blog: false
 boolean show-banner: false
 ftd.ui list banner:
 ftd.ui list hero:
+ftd.ui list popup:
 optional boolean github-icon: false
 optional string github-url: 
 boolean breadcrumb: false
 boolean login-button: false
 
--- ds.page: $page.title
+-- spa.page: $page.title
 site-logo: $page.site-logo
 site-name: $page.site-name
 body: $page.body
@@ -53,18 +53,16 @@ blog: $page.blog
 show-banner: $page.show-banner
 banner: $page.banner
 hero: $page.hero
+popup: $page.popup
 breadcrumb: $page.breadcrumb
 login-button: $page.login-button
 
--- ds.page.footer:
+-- spa.page.footer:
 
--- footer.fastn-footer:
-copyright: Copyright © 2035 Midnight
-site-logo: $common.fastn-logo
-powered-by-text: Powered by
-powered-by-link: https://fastn.com/
+-- spa.footer:
+copyright: Copyright © 2023 FASTN
 
--- end: ds.page.footer
+-- end: spa.page.footer
 
 -- ftd.column:
 spacing.fixed.em: 0.8
@@ -73,6 +71,6 @@ children: $page.wrapper
 
 -- end: ftd.column
 
--- end: ds.page
+-- end: spa.page
 
 -- end: page
