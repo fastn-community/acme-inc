@@ -28,6 +28,8 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 # Testimonials: /#testimonials
 # Clients: /#clients
 # FAQs: /#faqs
+# Blog: /blog/
+- Sample Post: /sample-post/
 
 # User Manual: /user-manual/
   skip: true
