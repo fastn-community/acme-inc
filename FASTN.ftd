@@ -1,15 +1,16 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: fastn-community.github.io/midnight-storm-spa
+favicon: /-/fastn-community.github.io/midnight-storm-spa/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/midnight-storm as ds
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher
+-- fastn.dependency: fastn-community.github.io/midnight-storm-spa as spa
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/spa
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
--- fastn.auto-import: ds
--- fastn.auto-import: ds/common
+-- fastn.auto-import: spa/FASTN/spa
+-- fastn.auto-import: spa/assets
+-- fastn.auto-import: spa/common
 
 -- fastn.sitemap:
 
