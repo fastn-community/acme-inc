@@ -9,7 +9,7 @@
 -- ws.hero-with-image: We transform ideas into digital outcomes.
 cta-primary: Learn More
 cta-primary-link: #about
-image: $assets.files.assets.landing.svg
+image: $assets.files.assets.landing.png
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
@@ -21,25 +21,25 @@ Fastn is an all-in-one payments platform where businesses can connect, transact,
 and grow together.
 
 -- ws.hero-image-left: Create
-image: $assets.files.assets.left-img1.svg
+image: $assets.files.assets.left-img1.jpg
 
 Welcome Studio gives you all the tools you need to create and host virtual
 experiences that look awesome and put your brand centerstage.
 
 -- ws.hero-image-right: Engage
-image: $assets.files.assets.right-img.svg
+image: $assets.files.assets.right-img.jpg
 
 Welcome Studio gives you all the tools you need to create and host virtual
 experiences that look awesome and put your brand centerstage.
 
 -- ws.hero-image-left: Analyze
-image: $assets.files.assets.left-img2.svg
+image: $assets.files.assets.left-img2.jpg
 
 Welcome Studio gives you all the tools you need to create and host virtual
 experiences that look awesome and put your brand centerstage.
 
 -- ws.hero-with-image: Experiences
-image: $assets.files.assets.landing.svg
+image: $assets.files.assets.landing.png
 align-right: true
 
 Lorem ipsum dolor sit amet
