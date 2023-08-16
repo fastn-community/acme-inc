@@ -22,8 +22,8 @@ optional caption title:
 optional body body:
 boolean sidebar: false
 ftd.ui list right-sidebar:
-optional string document-title:
-optional string document-description:
+optional string document-title: fastn web site template. Build Your Own Website with Ease
+optional string document-description: Simple, easy-to-use web site template to build your own start-up website. Change colours and typography effortlessly.
 ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
 optional string site-name: Midnight
 optional ftd.image-src site-logo:
