@@ -8,13 +8,14 @@
 
 -- ws.hero-with-image: We transform ideas into digital outcomes.
 cta-primary: Learn More
-cta-primary-link: #content
+cta-primary-link: #about
 image: $assets.files.assets.landing.svg
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
 
 -- ws.content: Built for the next generation of small business
+id: about
 
 Fastn is an all-in-one payments platform where businesses can connect, transact,
 and grow together.
@@ -56,6 +57,7 @@ nav: $common.navs
 -- ws.features-card: We Transform ideas into digital outcomes
 features: $common.list-of-features
 tag: KICKER
+id: services
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
@@ -68,6 +70,7 @@ platform, seamlessly across all digital channels.
 
 -- ws.logo-cloud: Trusted by the top companies in this industry
 logo-list: $common.list-of-logos
+id: clients
 
 The only SaaS business platform that combines CRM, marketing automation &
 commerce.

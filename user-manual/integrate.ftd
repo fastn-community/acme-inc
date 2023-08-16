@@ -1,3 +1,5 @@
+-- import: fastn-community.github.io/code-block as cb
+
 -- site-doc.doc-home: Add landing page to your existing `fastn` site
 show-tabs: false
 github-url: https://github.com/fastn-community/midnight-storm-spa
@@ -14,19 +16,19 @@ This entirely runs on the browser. Simply follow along the steps to integrate.
 -- ftd.column:
 width: fill-container
 
--- spa.h3: `Step 1:` Sign In to your GitHub account
+-- site-doc.header: `Step 1:` Sign In to your GitHub account
 
 - [Sign In]((https://github.com/login)) to your GitHub account to access your
   `fastn repository`
 
--- spa.h3: `Step 2:` Identify the existing `fastn repository` on GitHub
+-- site-doc.header: `Step 2:` Identify the existing `fastn repository` on GitHub
 
 - Select the existing `fastn repository` on GitHub to which you want to
   integrate the landing page
 
 You can find the fastn repository under `Repositories` on GitHub
 
--- spa.h3: `Step 3:` Navigate to the `FASTN.ftd` document 
+-- site-doc.header: `Step 3:` Navigate to the `FASTN.ftd` document 
 
 - Navigate to the `FASTN.ftd` file of the selected project and click to open it.
 
@@ -50,11 +52,11 @@ border-width.px: 1
 border-color: $inherited.colors.border
 margin-vertical.px: 16
 
--- spa.h3: `Step 4:` Add below line inside your `FASTN.ftd` document
+-- site-doc.header: `Step 4:` Add below line inside your `FASTN.ftd` document
 
 - Copy the following code
 
--- spa.code:
+-- cb.code:
 lang: ftd
 
 \-- fastn.dependency: fastn-community.github.io/midnight-storm-spa
@@ -113,7 +115,7 @@ border-color: $inherited.colors.border
 margin-vertical.px: 16  
 
 
--- spa.h3: `Step 5:` Navigate to the document 
+-- site-doc.header: `Step 5:` Navigate to the document 
 
 
 - Open the document to which you want to integrate the landing page and 
@@ -135,11 +137,11 @@ margin-vertical.px: 16
 - Click on the `Edit` icon to make the selected `.ftd` file editable
 
 
--- spa.h3: `Step 6:` Add below line inside your `.ftd` file
+-- site-doc.header: `Step 6:` Add below line inside your `.ftd` file
 
 - Copy the following import line
 
--- spa.code:
+-- cb.code:
 lang: ftd
 
 \-- import: fastn-community.github.io/misty-gray
@@ -168,11 +170,11 @@ margin-vertical.px: 16
 
 
 
-/-- spa.h3: `Step 7:` Add the following landing page in your project
+/-- site-doc.header: `Step 7:` Add the following landing page in your project
 
 - Copy the code
 
-/-- spa.code:
+/-- cb.code:
 lang: ftd
 
 \-- business-card.details: John Doe
@@ -225,7 +227,7 @@ margin-vertical.px: 16
 
 
 
--- spa.h3: `Step 8:` Personalise the landing page with your data
+-- site-doc.header: `Step 8:` Personalise the landing page with your data
 
 - Edit the same `ftd` file
 
@@ -238,7 +240,7 @@ open-in-new-tab: true
 role: $inherited.types.copy-regular
 margin-bottom.px: 6
 
-/-- spa.code: Example
+/-- cb.code: Example
 lang: ftd
 
 \-- business-card.details: Ajit Garg
@@ -251,7 +253,7 @@ logo: $assets.files.assets.fastn.svg
 company-slogan: If you can type you can code
 website: www.fastn.com
 
--- spa.h3: Final Output
+-- site-doc.header: Final Output
 
 /-- ftd.image:
 src: $assets.files.images.integrated-card-output.png

@@ -1,0 +1,176 @@
+-- import: fastn-community.github.io/code-block as cb
+-- import: theme/header as h
+-- import: fastn-community.github.io/midnight-storm-cs
+-- import: fastn-community.github.io/midnight-storm-typography
+
+
+-- site-doc.doc-home: Header
+current-package: fastn-community.github.io/midnight-storm-ws
+show-tabs: false
+github-url: https://github.com/fastn-community/midnight-storm-ws
+site-title: Midnight Storm landing page
+
+-- site-doc.header: Demo
+
+-- site-doc.output:
+colors: $midnight-storm-cs.main
+types: $midnight-storm-typography.types
+
+-- h.header:
+sections: $common.sitemap.sections
+sub-sections: $common.sitemap.subsections
+current-section: $common.sitemap.current-section
+current-subsection: $common.sitemap.current-subsection
+current-page: $common.sitemap.current-page
+toc: $common.sitemap.toc
+site-url: index.html
+site-name: Midnight
+breadcrumb: false
+
+-- end: site-doc.output
+
+-- site-doc.header: How to modify site name
+id: site-name
+
+To modify site-name edit `FASTN/ws.ftd` file which is added inside your fastn
+project root `FASTN` folder.
+
+Edit `FASTN/ws.ftd` line `optional string site-name: Midnight`.
+
+E.g.
+
+-- cb.code:
+lang: info
+
+optional string site-name: ACME.com
+
+-- site-doc.markdown:
+
+If you don't want to show `site-name` and keep it blank, and show only logo.
+Then first add logo, to add logo follow [How to enable site logo](user-manual/header/#site-logo)
+
+Once you have finished adding logo, then just remove `Midnight` from line
+`optional string site-name: Midnight` replace this with `optional string
+site-name:`
+
+-- site-doc.header: How to enable site logo
+id: site-logo
+
+To enable site-logo edit `FASTN/ws.ftd` file which is added inside your fastn
+project root `FASTN` folder.
+
+To add `site-logo` add logo dark and light image inside `assets` folder.
+`assets` folder is already added inside your fastn project root folder.
+
+After adding logo image inside `assets` folder, update below lines from
+`FASTN/ws.ftd` file.
+
+Change below line:
+
+-- cb.code: 
+
+\-- ftd.image-src fastn-logo: https://fastn.com/-/fastn.com/images/fastn.svg
+
+-- site-doc.markdown:
+
+with:
+
+-- cb.code:
+lang: ftd
+
+\-- ftd.image-src fastn-logo: $assets.files.assets.ipsum-logo.svg
+
+
+-- site-doc.markdown:
+
+In above code snippet we have used `ipsum-logo.svg` file which is already added
+as dummy logo inside your fastn project folder.
+
+Now edit `FASTN/ws.ftd` line `optional ftd.image-src site-logo:`.
+
+E.g.
+
+-- cb.code:
+lang: ftd
+
+optional ftd.image-src site-logo: $fastn-logo
+
+-- site-doc.markdown: 
+
+Now deploy your fastn site or run your local server. `ipsum-logo` will be seen
+before `site-name`
+
+
+-- site-doc.header: How to modify `site-logo` `height` and `width`
+id: height-width
+
+We have added option for you to modify `height` or `width` of your site logo.
+For this we have added `logo-width` and `logo-height` integer type properties
+inside `FASTN/ws.ftd` file. 
+
+Since `logo-width` and `logo-height` are of `integer` type, just update its
+value in numbers only.
+
+E.g.
+
+Change below lines:
+
+-- cb.code:
+lang: info
+
+integer logo-width: $common.logo-width
+integer logo-height: $common.logo-height
+
+-- site-doc.markdown:
+
+with(if you only wish to change `width`):
+
+-- cb.code:
+lang: info
+
+integer logo-width: 120
+integer logo-height: $common.logo-height
+
+-- site-doc.markdown:
+
+with(if you only wish to change `height`):
+
+-- cb.code:
+lang: info
+
+integer logo-width: $common.logo-width
+integer logo-height: 48
+
+-- site-doc.markdown:
+
+with(if you only wish to change `height` and `width`):
+
+-- cb.code:
+lang: info
+
+integer logo-width: 120
+integer logo-height: 48
+
+-- site-doc.header: How to update Navbar links
+id: navbar
+
+To update navbar links, update `FASTN.ftd` `-- fastn.sitemap:` links. Edit
+`FASTN.ftd` file which is inside your fastn project root folder.
+
+If you would like to change `Services` link name with `Our Services` then follow
+below code snippet:
+
+-- cb.code:
+lang: info
+
+\-- fastn.sitemap:
+
+# Home: index.html
+# Our Services: /#services
+# About: /#about
+# Testimonials: /#testimonials
+# Clients: /#clients
+# FAQs: /#faqs
+
+
+-- end: site-doc.doc-home
