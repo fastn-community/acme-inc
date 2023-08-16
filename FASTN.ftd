@@ -1,0 +1,21 @@
+-- import: fastn
+
+-- fastn.package: <user_name>.github.io/<repo_name>
+favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/midnight-storm as ds
+-- fastn.dependency: fastn-community.github.io/footer
+
+-- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/spa
+-- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
+-- fastn.auto-import: ds
+-- fastn.auto-import: ds/common
+
+-- fastn.sitemap:
+
+# Home: index.html
+# Services: /#features-card
+# About: /#content
+# Testimonials: /#testimonials
+# Clients: /#logo-cloud
+# FAQs: /#faqs
