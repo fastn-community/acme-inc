@@ -3,14 +3,21 @@
 -- fastn.package: fastn-community.github.io/midnight-storm-spa
 favicon: /-/fastn-community.github.io/midnight-storm-spa/favicon.ico
 
+-- fastn.dependency: fastn-community.github.io/midnight-storm as theme
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher
--- fastn.dependency: fastn-community.github.io/midnight-storm-spa as spa
+-- fastn.dependency: fastn-community.github.io/midnight-storm-spa as ws
+-- fastn.dependency: fastn-community.github.io/site-doc
+-- fastn.dependency: fastn-community.github.io/typography
+-- fastn.dependency: fastn-community.github.io/code-block
 
--- fastn.auto-import: spa/FASTN/spa
--- fastn.auto-import: spa/assets
--- fastn.auto-import: spa/common
+
+-- fastn.auto-import: theme
+-- fastn.auto-import: theme/common
+-- fastn.auto-import: ws/FASTN/ws
+-- fastn.auto-import: ws/assets
+-- fastn.auto-import: fastn-community.github.io/site-doc
 
 -- fastn.sitemap:
 
@@ -20,3 +27,22 @@ favicon: /-/fastn-community.github.io/midnight-storm-spa/favicon.ico
 # Testimonials: /#testimonials
 # Clients: /#logo-cloud
 # FAQs: /#faqs
+
+# User Manual: /user-manual/
+  skip: true
+
+- Overview: /user-manual/
+- Create a landing page: /user-manual/create/
+- Add landing page to your existing site: /user-manual/integrate/
+- Header: /user-manual/header/
+  - Logo: /user-manual/header/#logo
+  - Navbar: /user-manual/header/#navbar
+- Hero: user-manual/hero/
+  - Title: user-manual/hero/#title
+  - Body: user-manual/hero/#body
+  - CTA-Text: user-manual/hero/#cta-text
+  - CTA-URL: user-manual/hero/#cta-url
+  - Image: user-manual/hero/#image
+- Featured Card: user-manual/featured-card/
+  - Title: user-manual/featured-card/#title
+  - Body: user-manual/featured-card/#body
