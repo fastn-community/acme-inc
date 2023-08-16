@@ -1,3 +1,6 @@
+-- import: fastn-community.github.io/code-block as cb
+
+
 -- site-doc.doc-home: Create a landing page
 show-tabs: false
 github-url: https://github.com/fastn-community/midnight-storm-spa
@@ -6,7 +9,7 @@ site-title: Create a site with landing page
 This step-by-step guide will walk you through the process of building your
 landing page from scratch, all within your browser. Let's get started!
 
--- spa.h3: `Step 1`: Sign Up or Sign In on `GitHub`
+-- site-doc.header: `Step 1`: Sign Up or Sign In on `GitHub`
 
 `GitHub` is an online collaboration platform where we have put our
 `business-card-template`. 
@@ -35,7 +38,7 @@ border-color: $inherited.colors.border
 margin-vertical.px: 16
 
 
--- spa.h3: `Step 2`: Create a repository using landing page template
+-- site-doc.header: `Step 2`: Create a repository using landing page template
 
 After signing in, you're ready to create a repository using the landing page
 template. Simply click on the button below to add the template and follow the
@@ -97,7 +100,7 @@ border-width.px: 1
 border-color: $inherited.colors.border
 margin-vertical.px: 16
 
--- spa.h3: `Step 3`: Generate a live site URL to view the default landing page
+-- site-doc.header: `Step 3`: Generate a live site URL to view the default landing page
 
 The URL you are going to generate in this step will showcase the default 
 landing page at this moment. Once you personalize the default card with your 
@@ -167,7 +170,7 @@ border-color: $inherited.colors.border
 margin-vertical.px: 16
 
 
--- spa.h3: `Step 4`: Add URL in the `About` section for quick access [Optional] 
+-- site-doc.header: `Step 4`: Add URL in the `About` section for quick access [Optional] 
 
 To ensure easy access to your live URL throughout this user journey and for
 future reference, we recommend adding it to the `About` section under the Code
@@ -226,7 +229,7 @@ border-color: $inherited.colors.border
 margin-vertical.px: 16
 
 
--- spa.h3: `Step 5`: Personalise the landing page
+-- site-doc.header: `Step 5`: Personalise the landing page
 
 Now comes the exciting part! With just a few simple edits, you can transform the
 default landing page into your personal landing page.
@@ -305,7 +308,7 @@ margin-vertical.px: 16
 
 Your landing page is almost complete! 
 
--- spa.h3: `Step 6`: Add logo to your landing page
+-- site-doc.header: `Step 6`: Add logo to your landing page
 id: upload-your-logo
 
 With all the details personalized, now let's personalize the landing page with 
@@ -365,11 +368,11 @@ Next, update the logo in the `index.ftd`, by following these steps:
 
 - Replace the default logo file name (ipsum-logo.svg) with your logo file name
 
--- spa.code: Default logo file name (ipsum-logo.svg)
+-- cb.code: Default logo file name (ipsum-logo.svg)
 
 logo: $assets.files.assets.ipsum-logo.svg
 
--- spa.code: Replace it with your file name (eg: fastn.svg)
+-- cb.code: Replace it with your file name (eg: fastn.svg)
 
 logo: $assets.files.assets.fastn.svg
 

@@ -8,6 +8,8 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 -- fastn.dependency: fastn-community.github.io/site-doc
 -- fastn.dependency: fastn-community.github.io/typography
 -- fastn.dependency: fastn-community.github.io/code-block
+-- fastn.dependency: fastn-community.github.io/midnight-storm-cs
+-- fastn.dependency: fastn-community.github.io/midnight-storm-typography
 
 
 -- fastn.auto-import: theme
@@ -19,9 +21,20 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 -- fastn.sitemap:
 
 # Home: index.html
-# Services: /#features-card
-# About: /#content
+# Services: /#services
+# About: /#about
 # Testimonials: /#testimonials
-# Clients: /#logo-cloud
+# Clients: /#clients
 # FAQs: /#faqs
 
+# User Manual: /user-manual/
+  skip: true
+
+- Overview: /user-manual/
+- Create a landing page: /user-manual/create/
+- Add landing page to your existing site: /user-manual/integrate/
+- Header: /user-manual/header/
+  - Site Name: /user-manual/header/#site-name
+  - Logo: /user-manual/header/#site-logo
+  - Logo Height and Width: /user-manual/header/#height-width
+  - Navbar: /user-manual/header/#navbar
