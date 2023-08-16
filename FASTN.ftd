@@ -10,8 +10,8 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 -- fastn.dependency: fastn-community.github.io/code-block
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography
--- fastn.dependency: fastn-community.github.io/misty-gray-cs as cs
--- fastn.dependency: fastn-community.github.io/misty-gray-typography as typo
+-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs as cs
+-- fastn.dependency: fastn-community.github.io/roboto-typography as typo
 
 
 -- fastn.auto-import: theme
