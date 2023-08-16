@@ -1,0 +1,75 @@
+-- import: theme
+export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item
+
+-- ftd.image-src fastn-logo:
+light: https://fastn.com/-/fastn.com/images/fastn.svg
+dark: https://fastn.com/-/fastn.com/images/fastn-dark.svg
+
+
+
+
+
+
+
+
+
+
+-- component page:
+children wrapper:
+optional caption title:
+optional body body:
+boolean sidebar: false
+ftd.ui list right-sidebar:
+optional string document-title:
+optional string document-description:
+optional ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
+optional string site-name: Midnight
+optional ftd.image-src site-logo: 
+boolean full-width: true
+boolean blog: false
+boolean show-banner: false
+ftd.ui list banner:
+ftd.ui list hero:
+ftd.ui list popup:
+optional boolean github-icon: false
+optional string github-url: 
+boolean breadcrumb: false
+boolean login-button: false
+
+-- theme.page: $page.title
+site-logo: $page.site-logo
+site-name: $page.site-name
+body: $page.body
+show-footer: true
+right-sidebar: $page.right-sidebar
+sidebar: $page.sidebar
+document-title: $page.document-title
+document-description: $page.document-description
+document-image: $page.document-image
+github-url: $page.github-url
+github-icon: $page.github-icon
+full-width: $page.full-width
+blog: $page.blog
+show-banner: $page.show-banner
+banner: $page.banner
+hero: $page.hero
+popup: $page.popup
+breadcrumb: $page.breadcrumb
+login-button: $page.login-button
+
+-- theme.page.footer:
+
+-- theme.footer-badge: Copyright © 2023 Midnight
+
+-- end: theme.page.footer
+
+-- ftd.column:
+spacing.fixed.em: 0.8
+width: fill-container
+children: $page.wrapper
+
+-- end: ftd.column
+
+-- end: theme.page
+
+-- end: page
