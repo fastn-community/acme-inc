@@ -1,0 +1,71 @@
+-- spa.page:
+full-width: true
+sidebar: false
+
+-- spa.hero-with-image: We transform ideas into digital outcomes.
+cta-primary: Learn More
+cta-primary-link: #content
+image: $assets.files.assets.landing.svg
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- spa.content: Built for the next generation of small business
+
+Fastn is an all-in-one payments platform where businesses can connect, transact,
+and grow together.
+
+-- spa.hero-image-left: Create
+image: $assets.files.assets.left-img1.svg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- spa.hero-image-right: Engage
+image: $assets.files.assets.right-img.svg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- spa.hero-image-left: Analyze
+image: $assets.files.assets.left-img2.svg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- spa.hero-with-image: Experiences
+image: $assets.files.assets.landing.svg
+align-right: true
+
+Lorem ipsum dolor sit amet
+
+-- spa.banner-card: SEE HOW MUCH FASTER YOU CAN GET PAID WITH FASTN
+info-cards: $common.list-of-info-cards
+
+Use our calculator to see how many days we can free up in cash flow for your
+business.
+
+-- spa.testimonials-card:
+testimonials: $common.list-of-testimonials
+nav: $common.navs
+
+-- spa.features-card: We Transform ideas into digital outcomes
+features: $common.list-of-features
+tag: KICKER
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- spa.faqs: Frequently Asked Questions
+faqs-list: $common.list-of-faqs
+
+Flex is the only saas business platform that lets you run your business on one
+platform, seamlessly across all digital channels.
+
+-- spa.logo-cloud: Trusted by the top companies in this industry
+logo-list: $common.list-of-logos
+
+The only SaaS business platform that combines CRM, marketing automation &
+commerce.
+
+-- end: spa.page
