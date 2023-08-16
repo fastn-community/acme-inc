@@ -1,0 +1,91 @@
+
+-- site-doc.doc-home: Midnight Storm landing page
+current-package: fastn-community.github.io/midnight-storm
+show-tabs: false
+github-url: https://github.com/fastn-community/midnight-storm
+site-title: Midnight Storm landing page
+
+This guide will demonstrate how to make landing page using `fastn`. 
+
+`fastn` is a beginner friendly web-development platform. 
+Check out [`fastn`](https://fastn.com/).
+
+-- site-doc.header: Create your landing page
+
+-- ftd.desktop:
+
+-- ftd.row:
+width: fill-container
+align-content: center
+spacing: space-between
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+
+-- site-doc.markdown: 
+
+Build a new landing page from scratch
+
+-- site-doc.button: Create a landing page
+link: /user-manual/create/
+
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+
+-- site-doc.markdown: 
+
+Integrate this landing page into your existing fastn project
+
+-- site-doc.button: Add landing page to your existing site
+link: /user-manual/integrate/
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing: space-between
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+
+-- site-doc.markdown: 
+
+Build a new landing page from scratch
+
+-- site-doc.button: Create a landing page
+link: /user-manual/create/
+
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+
+-- site-doc.markdown: 
+
+Integrate this landing page into your existing fastn project
+
+-- site-doc.button: Add landing page to your existing site
+link: /user-manual/integrate/
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.mobile
+
+-- end: site-doc.doc-home

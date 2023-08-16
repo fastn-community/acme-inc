@@ -1,0 +1,393 @@
+-- site-doc.doc-home: Create a landing page
+show-tabs: false
+github-url: https://github.com/fastn-community/midnight-storm-spa
+site-title: Create a site with landing page
+
+This step-by-step guide will walk you through the process of building your
+landing page from scratch, all within your browser. Let's get started!
+
+-- spa.h3: `Step 1`: Sign Up or Sign In on `GitHub`
+
+`GitHub` is an online collaboration platform where we have put our
+`business-card-template`. 
+Once you Sign In on GitHub you will be able to add the template and 
+use it to create your personalised landing page.
+
+- It's simple to create an account. Just click [Sign Up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+and follow the instructions.
+
+- If you have an existing account, simply [Sign In](https://github.com/login).
+
+
+-- ftd.text: Click to know more about GitHub
+link: https://fastn.com/book/github/
+open-in-new-tab: true
+role: $inherited.types.copy-regular
+margin-vertical.px: 6
+
+
+/-- ftd.image:
+src: $assets.files.images.new-user-dashboard.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- spa.h3: `Step 2`: Create a repository using landing page template
+
+After signing in, you're ready to create a repository using the landing page
+template. Simply click on the button below to add the template and follow the
+steps.
+
+
+-- site-doc.button: Add template
+link: https://github.com/new?template_name=ms-landing-template&template_owner=fastn-community
+open-in-new-tab: true
+
+
+
+-- site-doc.markdown:
+
+If you are new to GitHub, you will see this page:
+
+/-- ftd.image:
+src: $assets.files.images.new-user-view.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown: 
+
+If you are an existing GitHub user, you will see this page:
+
+/-- ftd.image:
+src: $assets.files.images.create-your-repo.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+Irrespectively, follow the steps:
+
+- Give a repository name (*for example*: landing-page, my-landing-page,
+  misty-gray-page, etc.)
+
+- Click on the `Create repository` button
+
+Once the repository is created, you will see a page displaying 
+the repository name along with the template name, along with various tabs.
+In the first tab, labeled `Code`, you can find the list of files and folders 
+necessary to build your landing page.
+
+
+/-- ftd.image:
+src: $assets.files.images.repo-home-page.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- spa.h3: `Step 3`: Generate a live site URL to view the default landing page
+
+The URL you are going to generate in this step will showcase the default 
+landing page at this moment. Once you personalize the default card with your 
+information, you can use the same URL to view your landing page. 
+
+- Go to `Settings` (last tab) from the list of tabs
+
+/-- ftd.image:
+src: $assets.files.images.gh-page-deployment.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Select `Pages` from the Table of Content
+
+- Under `Branch`, click on the drop-down and choose `gh-pages` (*by default*:
+  None)
+
+- Click on `Save` button
+
+This action will build your GitHub pages and deploy your website.
+
+To verify the deployment, go to the `Actions` tab (fourth tab), and you will 
+see the `pages build and deployment` workflow in progress. 
+
+
+/-- ftd.image:
+src: $assets.files.images.actions-tab.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Once you see the green tick indicating successful deployment, return to 
+`Settings > Pages`
+
+
+- At the top, you will find your live site URL, as shown in the below image. 
+  To view the landing page, click on the button `Visit site`.
+
+
+/-- ftd.image:
+src: $assets.files.images.live-site.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+A new tab will open with same URL, and you will see the default landing page.
+
+/-- ftd.image:
+src: $assets.files.images.live-default-card.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- spa.h3: `Step 4`: Add URL in the `About` section for quick access [Optional] 
+
+To ensure easy access to your live URL throughout this user journey and for
+future reference, we recommend adding it to the `About` section under the Code
+tab (first tab). This will allow you to quickly locate and revisit the URL
+whenever needed.
+
+
+/-- ftd.image:
+src: $assets.files.images.about-section.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+Here's how you can do it: 
+
+- Go to the GitHub tab in the browser
+
+- Open the `Code` tab (first tab)
+
+- Click on the `Settings` icon (⚙️) in the `About` section (as shown in the
+ above image)
+
+An `Edit repository details` popup will come up as shown below.
+
+/-- ftd.image:
+src: $assets.files.images.select-checkbox.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+- Select the checkbox `Use your GitHub Pages website` just below the second 
+field 
+
+- Click on `Save changes`
+
+
+-- site-doc.markdown:
+
+Now, your website can be accessed from the `About` section. This also helps 
+others to see the website if they visit your repository.
+
+/-- ftd.image:
+src: $assets.files.images.updated-about-section.png
+width.fixed.px: 350
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- spa.h3: `Step 5`: Personalise the landing page
+
+Now comes the exciting part! With just a few simple edits, you can transform the
+default landing page into your personal landing page.
+
+- Open the `index.ftd` file from the list of files and folders in the `Code`
+  tab (first tab)
+
+- Click on the `edit` icon (as shown below) to make the `index.ftd` file
+  editable
+
+
+/-- ftd.image:
+src: $assets.files.images.edit-index-ftd.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Replace the default data with your own information
+
+```
+Example 1:
+
+Replace 
+```
+```
+Example 2:
+
+If you prefer not to provide certain information, you can simply remove it and 
+delete the empty line space
+```
+
+
+-- site-doc.markdown:
+
+- After adding your information, click on the `Commit changes...` button
+
+- Optionally, you can add details about the changes in the new popup. Otherwise,
+  click on `Commit changes` again.
+
+
+
+/-- ftd.image:
+src: $assets.files.images.personalise-the-card.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Go to the `Actions` tab (fourth tab) and wait for the *two* new workflows to
+  complete (the latest will be `pages build and deployment`)
+
+- Once you see the green tick indicating successful deployment, open the browser
+  tab where your live site is running 
+
+- Refresh the browser to see the updated landing page
+
+
+/-- ftd.image:
+src: $assets.files.images.personalised-card.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown:
+
+Your landing page is almost complete! 
+
+-- spa.h3: `Step 6`: Add logo to your landing page
+id: upload-your-logo
+
+With all the details personalized, now let's personalize the landing page with 
+your logo.
+
+First, upload your logo to your repository. It's recommended to keep your logo
+file in one location. In our case, we will use the `assets` folder to store the
+logo file.
+
+- Go to the `Code` tab (first tab) and open the `assets` folder
+
+/-- ftd.image:
+src: $assets.files.images.open-assets-folder.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Click on `Add file` and choose `Upload files` option. Upload your logo file 
+(eg., fastn.svg)
+
+  `NOTE`: file name and extension can be anything for eg: *abc.png*, 
+  *pqr.jpeg*, *xyz.svg*
+
+/-- ftd.image:
+src: $assets.files.images.upload-logo.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+
+-- site-doc.markdown:
+
+- Once you have uploaded the logo file, commit your changes.
+
+/-- ftd.image:
+src: $assets.files.images.commit-uploaded-logo.png
+width.fixed.px: 800
+border-radius.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+margin-vertical.px: 16
+
+-- site-doc.markdown: 
+
+Next, update the logo in the `index.ftd`, by following these steps:
+
+- Open the `index.ftd` file
+
+- Click on `edit` icon to make the `index.ftd` file editable. 
+
+- Replace the default logo file name (ipsum-logo.svg) with your logo file name
+
+-- spa.code: Default logo file name (ipsum-logo.svg)
+
+logo: $assets.files.assets.ipsum-logo.svg
+
+-- spa.code: Replace it with your file name (eg: fastn.svg)
+
+logo: $assets.files.assets.fastn.svg
+
+
+-- site-doc.markdown: 
+
+- Click on `Commit changes`
+
+- Go to the `Actions` tab (fourth tab) and wait for the *two* new workflows to 
+complete
+
+- Once you see the green tick on `pages build and deployment` workflow 
+indicating successful deployment, you can go to the browser where the live site 
+is open
+
+- Refresh the browser to see the updated logo
+
+There you have it - your personalized landing page is now ready!
+
+
+-- end: site-doc.doc-home
