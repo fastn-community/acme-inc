@@ -4,7 +4,7 @@
 favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/midnight-storm as theme
--- fastn.dependency: fastn-community.github.io/midnight-storm-ws as ws
+-- fastn.dependency: fastn-community.github.io/midnight-storm-ws
 -- fastn.dependency: fastn-community.github.io/site-doc
 -- fastn.dependency: fastn-community.github.io/typography
 -- fastn.dependency: fastn-community.github.io/code-block
@@ -12,8 +12,8 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 
 -- fastn.auto-import: theme
 -- fastn.auto-import: theme/common
--- fastn.auto-import: ws/FASTN/ws
--- fastn.auto-import: ws/assets
+-- fastn.auto-import: fastn-community.github.io/midnight-storm-ws/FASTN/ws
+-- fastn.auto-import: fastn-community.github.io/midnight-storm-ws/assets
 -- fastn.auto-import: fastn-community.github.io/site-doc
 
 -- fastn.sitemap:
