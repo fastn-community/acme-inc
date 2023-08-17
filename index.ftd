@@ -1,7 +1,5 @@
 -- ws.page:
 
-
-
 -- ws.hero-primary:  We transform ideas into digital outcomes.
 hero-image: $assets.files.assets.hero-img.jpg
 cta-primary: Learn more
