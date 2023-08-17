@@ -24,7 +24,8 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 
 # Home: index.html
 # Our Services: /services/
-# About Us: /team/
+# About Us: /our-team/
+  document: team.ftd
 # Pricing: /pricing/
 # Blog: /blog/
 - Sample Post: /sample-post/
