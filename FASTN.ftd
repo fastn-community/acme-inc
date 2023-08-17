@@ -11,6 +11,8 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography
 -- fastn.dependency: fastn-community.github.io/midnight-rush
+-- fastn.dependency: fastn-community.github.io/midnight-rush-cs as cs
+-- fastn.dependency: fastn-community.github.io/opensans-typography as typo
 
 
 -- fastn.auto-import: theme
