@@ -1,11 +1,5 @@
 -- ws.page:
 
--- ws.page.popup:
-
--- ws.terms:
-
--- end: ws.page.popup
-
 -- ws.hero-with-image: We transform ideas into digital outcomes.
 cta-primary: Learn More
 cta-primary-link: #about
