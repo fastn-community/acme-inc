@@ -5,10 +5,10 @@
 
 
 -- site-doc.doc-home: Header
-current-package: fastn-community.github.io/midnight-storm-ws
+current-package: fastn-community.github.io/acme-inc
 show-tabs: false
 github-url: https://github.com/fastn-community/midnight-storm-ws
-site-title: Midnight Storm landing page
+site-title: Acme Inc landing page
 
 -- site-doc.header: Demo
 
