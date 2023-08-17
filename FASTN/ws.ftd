@@ -35,8 +35,8 @@ optional boolean github-icon: false
 optional string github-url: 
 boolean breadcrumb: false
 boolean login-button: false
-integer logo-width: 200
-integer logo-height: 48
+integer logo-width: $common.logo-width
+integer logo-height: 28
 
 -- theme.page: $page.title
 site-logo: $page.site-logo
