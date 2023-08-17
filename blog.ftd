@@ -16,7 +16,7 @@ post-data: $sample-post-2.meta
 info: Small Incidental Text.
 cta-primary: Read more
 cta-primary-url: /blog-articles/sample-post-2/
-link: /sample-post/
+link: /blog-articles/sample-post-2/
 
 -- end: ws.page.hero
 
