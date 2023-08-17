@@ -3,6 +3,14 @@
 
 -- ws.page: 
 
+
+-- ws.hero-primary:  We Transform ideas into digital outcomes.
+hero-image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
+
+We are an award-winning strategic design company that provides 
+consultancy services and help you create outstanding digital products.
+
+
 -- ws.content: Our platform built for the next generation startups
 id: about-us
 
@@ -22,24 +30,17 @@ tag: OUR TEAM
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
-
 -- team.team.members:
 
--- team.member: John Carter
+-- team.member: Nandhini Devi
 profile: CEO & Founder
-image: $assets.files.assets.john-deo.jpg
+image: https://www.fifthtry.com/-/fifthtry.com/images/team/nandhini-devi.jpg
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
--- team.member: Sophie Moore
+-- team.member: Ajit Garg
 profile: VP of Marketing
-image: $assets.files.assets.sophie-moore.jpg
-
-Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
-
--- team.member: Matt Cannon
-profile: VP of Product
-image: $assets.files.assets.matt-cannon.jpg
+image: https://www.fifthtry.com/-/fifthtry.com/images/team/ajit.jpg
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
