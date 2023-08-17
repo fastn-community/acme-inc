@@ -75,4 +75,27 @@ id: clients
 The only SaaS business platform that combines CRM, marketing automation &
 commerce.
 
+-- ws.row-container:
+
+-- ws.contact-form: Contact Us
+company: Acme Inc
+address: Block No. 512, 91SpringBoard, Bannerghatta Road, Bangalore - 123 456
+email: $assets.files.assets.connect-with.svg
+phone: +91 9999999999, +91 8888888888
+cta-button: Contact Us
+cta-link: contact/
+twitter: $assets.files.assets.twitter.svg
+linkedin: $assets.files.assets.instagram.svg
+instagram: $assets.files.assets.linkedin.svg
+twitter-link: https://twitter.com/fastn_stack
+instagram-link: https://instagram.com/fastn_stack?igshid=MzRlODBiNWFlZA==
+linkedin-link: https://www.linkedin.com/company/fastn-stack/
+
+-- ws.iframe:
+src: https://maps.google.com/maps?width=1000&amp;height=420&amp;hl=en&amp;q=91springboard-bannerghatta-road&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed
+width.fixed.px: 1040
+height.fixed.px: 420
+
+-- end: ws.row-container
+
 -- end: ws.page

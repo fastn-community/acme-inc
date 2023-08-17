@@ -13,6 +13,7 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.dependency: fastn-community.github.io/midnight-rush
 -- fastn.dependency: fastn-community.github.io/midnight-rush-cs as cs
 -- fastn.dependency: fastn-community.github.io/opensans-typography as typo
+-- fastn.dependency: saurabh-lohiya.github.io/hero
 
 
 -- fastn.auto-import: theme
@@ -24,14 +25,11 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.sitemap:
 
 # Home: index.html
-# Services: /#services
-# About: /team/
-# Testimonials: /#testimonials
-# Clients: /#clients
-# FAQs: /#faqs
+# Our Services: /services/
+# About Us: /team/
+# Pricing: /pricing/
 # Blog: /blog/
 - Sample Post: /sample-post/
-# Pricing: /pricing/
 
 # User Manual: /user-manual/
   skip: true
