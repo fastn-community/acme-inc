@@ -1,4 +1,5 @@
 -- import: fastn-community.github.io/acme-inc/blog-articles/sample-post-1
+-- import: fastn-community.github.io/acme-inc/blog-articles/sample-post-2
 
 -- ws.page: Featured Posts
 blog: true
@@ -14,7 +15,7 @@ padding-top.px: 64
 post-data: $sample-post-1.meta
 info: Small Incidental Text.
 cta-primary: Read more
-cta-primary-url: /sample-post/
+cta-primary-url: /blog-articles/sample-post-2/
 link: /sample-post/
 
 -- end: ws.page.hero
@@ -27,16 +28,10 @@ Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac
 imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.
 
 -- ws.post-card:
-post-data: $sample-post-1.meta1
+post-data: $sample-post-2.meta1
 
 -- ws.post-card:
-post-data: $sample-post-1.meta2
-
--- ws.post-card:
-post-data: $sample-post-1.meta1
-
--- ws.post-card:
-post-data: $sample-post-1.meta2
+post-data: $sample-post-2.meta2
 
 -- ws.post-card:
 post-data: $sample-post-1.meta1
@@ -46,6 +41,12 @@ post-data: $sample-post-1.meta2
 
 -- ws.post-card:
 post-data: $sample-post-1.meta1
+
+-- ws.post-card:
+post-data: $sample-post-1.meta2
+
+-- ws.post-card:
+post-data: $sample-post-2.meta1
 
 -- ws.post-card:
 post-data: $sample-post-1.meta2
