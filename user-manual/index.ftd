@@ -1,9 +1,9 @@
 
--- site-doc.doc-home: Midnight Storm landing page
-current-package: fastn-community.github.io/midnight-storm-ws
+-- site-doc.doc-home: Acme Inc landing page
+current-package: fastn-community.github.io/acme-inc
 show-tabs: false
 github-url: https://github.com/fastn-community/midnight-storm-ws
-site-title: Midnight Storm landing page
+site-title: Acme Inc landing page
 
 This guide will demonstrate how to make landing page using `fastn`. 
 

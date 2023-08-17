@@ -1,4 +1,4 @@
--- import: fastn-community.github.io/midnight-storm-ws/blog/sample-post-1
+-- import: fastn-community.github.io/acme-inc/blog/sample-post-1
 
 -- ws.page: Featured Posts
 blog: true

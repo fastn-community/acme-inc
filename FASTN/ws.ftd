@@ -1,4 +1,4 @@
--- import: fastn-community.github.io/midnight-storm-ws/tnc
+-- import: fastn-community.github.io/acme-inc/tnc
 export: terms
 -- import: theme
 export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item, featured-post, posts, h2, h3, markdown, post-card, post, image
@@ -23,7 +23,7 @@ ftd.ui list right-sidebar:
 optional string document-title: fastn web site template. Build Your Own Website with Ease
 optional string document-description: Simple, easy-to-use web site template to build your own start-up website. Change colours and typography effortlessly.
 ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
-optional string site-name: Midnight
+optional string site-name: Acme Inc.
 optional ftd.image-src site-logo:
 boolean full-width: true
 boolean blog: false
@@ -63,7 +63,7 @@ logo-height: $page.logo-height
 
 -- theme.page.footer:
 
--- theme.footer-badge: Copyright © 2023 Midnight
+-- theme.footer-badge: Copyright © 2023 Acme Inc.
 
 -- end: theme.page.footer
 
