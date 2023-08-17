@@ -10,14 +10,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 -- common.post-meta meta: Understanding concepts of Article 16
-post-image: $assets.files.assets.featured.png
+post-image: $assets.files.assets.post2.png
 post-url: /sample-post/
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
 doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
 
 -- common.post-meta meta1: Understanding concepts of Article 17
-post-image: $assets.files.assets.post1.png
+post-image: $assets.files.assets.featured.png
 image: $assets.files.assets.avatar.png
 author: $patrica
 post-url: /sample-post/
