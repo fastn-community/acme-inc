@@ -1,4 +1,4 @@
--- import: fastn-community.github.io/midnight-storm/blog-authors/patrica
+-- import: fastn-community.github.io/acme-inc/blog/sample-post-1
 
 -- common.post-meta meta: We Transform ideas into digital outcomes.
 post-image: $assets.files.assets.featured.png
@@ -10,7 +10,7 @@ doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore
 -- common.post-meta meta1:
 post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
-author: $patrica.patrica
+author: $sample-post-1.patrica
 post-url: https://fastn-community.github.io/acme-inc/sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
@@ -18,14 +18,14 @@ Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 -- common.post-meta meta2:
 post-image: $assets.files.assets.post2.png
 image: $assets.files.assets.avatar.png
-author: $patrica.patrica
+author: $sample-post-1.patrica
 post-url: https://fastn-community.github.io/acme-inc/sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
 -- common.post-meta meta3: Bringing the world together through live experiences.
 image: $assets.files.assets.avatar.png
-author: $patrica.patrica
+author: $sample-post-1.patrica
 
 
 
