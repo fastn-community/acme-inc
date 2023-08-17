@@ -13,27 +13,28 @@ in eros elementum tristique.
 -- pricing.pricing.pricing-cards:
 
 -- pricing.pricing-card: Free Plan
-active: false 
+active: true 
 price: 0
 currency: \$
 subscription: monthly
 feature-list: $pricing.free-feature-list
-cta-text: Get Started
+cta-text: Claim Now
 cta-link: /pricing/
-body-title: For startups
+body-title: For Individuals
+tag: Basic Plan
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
 
 -- pricing.pricing-card: Startup Plan
-active: true 
-price: 99
+active: false 
+price: 199
 currency: \$
-subscription: monthly
+subscription: yearly
 feature-list: $pricing.startup-feature-list
-cta-text: Get Started
+cta-text: Claim Now
 cta-link: /pricing/
-body-title: For startups
+body-title: For Startups
 tag: Best Plan
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
@@ -41,13 +42,14 @@ in eros elementum tristique.
 
 -- pricing.pricing-card: Enterprise Plan
 active: false 
-price: 153
+price: 499
 currency: \$
-subscription: monthly
+subscription: yearly
 feature-list: $pricing.enterprise-feature-list
-cta-text: Get Started
+cta-text: Claim Now
 cta-link: /pricing/
-body-title: For startups
+body-title: For Enterprises
+tag: Recommended
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
