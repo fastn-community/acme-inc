@@ -2,7 +2,7 @@
 
 -- common.author-meta patrica: Patrica AVA
 profile: UI Designer
-bio-url:  https://fastn-community.github.io/acme-inc/sample-post/
+bio-url: /sample-post/
 image: $assets.files.assets.avatar.png
 company: Acme Inc.
 
@@ -11,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 -- common.post-meta meta: We Transform ideas into digital outcomes.
 post-image: $assets.files.assets.featured.png
-post-url: https://fastn-community.github.io/acme-inc/sample-post/
+post-url: /sample-post/
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
 doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
@@ -20,7 +20,7 @@ doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore
 post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
 author: $patrica
-post-url: https://fastn-community.github.io/acme-inc/sample-post/
+post-url: /sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
@@ -28,7 +28,7 @@ Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 post-image: $assets.files.assets.post2.png
 image: $assets.files.assets.avatar.png
 author: $patrica
-post-url: https://fastn-community.github.io/acme-inc/sample-post/
+post-url: /sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 

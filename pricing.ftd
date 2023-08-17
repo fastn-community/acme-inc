@@ -34,7 +34,7 @@ feature-list: $pricing.startup-feature-list
 cta-text: Get Started
 cta-link: /pricing/
 body-title: For startups
-tag: best-plan
+tag: Best Plan
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
