@@ -11,6 +11,8 @@ favicon: /-/fastn-community.github.io/midnight-storm-ws/favicon.ico
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography
 
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs as cs
+-- fastn.dependency: fifthtry.github.io/fastn-io-typography as typo
 
 -- fastn.auto-import: theme
 -- fastn.auto-import: theme/common
