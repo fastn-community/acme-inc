@@ -14,8 +14,8 @@ padding-top.px: 64
 post-data: $sample-post-1.meta
 info: Small Incidental Text.
 cta-primary: Read more
-cta-primary-url: sample-post/
-link: sample-post/
+cta-primary-url: https://fastn-community.github.io/acme-inc/sample-post/
+link: https://fastn-community.github.io/acme-inc/sample-post/
 
 -- end: ws.page.hero
 
