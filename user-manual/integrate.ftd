@@ -33,7 +33,7 @@ You can find the fastn repository under `Repositories` on GitHub
 - Navigate to the `FASTN.ftd` file of the selected project and click to open it.
 
 /-- ftd.image:
-src: $assets.files.images.navigate-to-fastn.png
+src: $assets.files.assets.user-manual.navigate-to-fastn.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -45,7 +45,7 @@ margin-vertical.px: 16
 - Click on the `edit` icon (as shown below) to make the file editable
 
 /-- ftd.image:
-src: $assets.files.images.edit-fastn-file.png
+src: $assets.files.assets.user-manual.edit-fastn-file.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -67,7 +67,7 @@ lang: ftd
 
 
 /-- ftd.image:
-src: $assets.files.images.add-dependency.png
+src: $assets.files.assets.user-manual.add-dependency.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -82,7 +82,7 @@ margin-vertical.px: 16
 A pop-up will appear.
 
 /-- ftd.image:
-src: $assets.files.images.commit-popup.png
+src: $assets.files.assets.user-manual.commit-popup.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -94,7 +94,7 @@ margin-vertical.px: 16
 You can check the Commit message and other details on the commit status bar
 
 /-- ftd.image:
-src: $assets.files.images.status-bar.png
+src: $assets.files.assets.user-manual.status-bar.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -107,7 +107,7 @@ margin-vertical.px: 16
   will see a green tick
 
 /-- ftd.image:
-src: $assets.files.images.green-tick.png
+src: $assets.files.assets.user-manual.green-tick.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -125,7 +125,7 @@ margin-vertical.px: 16
   open it. 
 
 -- ftd.image:
-src: $assets.files.images.navigate-ftd-doc.png
+src: $assets.files.assets.user-manual.navigate-ftd-doc.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -161,7 +161,7 @@ margin-vertical.px: 6
 
 
 /-- ftd.image:
-src: $assets.files.images.import-in-ftd.png
+src: $assets.files.assets.user-manual.import-in-ftd.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -196,7 +196,7 @@ You can position the card at the start, in between the document or at the end.
 In my case, I have added in between of the document after the third paragraph.
 
 /-- ftd.image:
-src: $assets.files.images.paste-business-card.png
+src: $assets.files.assets.user-manual.paste-business-card.png
 width.fixed.px: 800
 border-radius.px: 10
 border-width.px: 1
@@ -218,7 +218,7 @@ tab(Code tab)
 You will be able to see the default landing page in your fastn repository. 
 
 /-- ftd.image:
-src: $assets.files.images.default-business-card.png
+src: $assets.files.assets.user-manual.default-business-card.png
 width: fill-container
 border-radius.px: 10
 border-width.px: 1
@@ -256,7 +256,7 @@ website: www.fastn.com
 -- site-doc.header: Final Output
 
 /-- ftd.image:
-src: $assets.files.images.integrated-card-output.png
+src: $assets.files.assets.user-manual.integrated-card-output.png
 width: fill-container
 border-radius.px: 10
 border-width.px: 1
