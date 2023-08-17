@@ -10,6 +10,7 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.dependency: fastn-community.github.io/code-block
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography
+-- fastn.dependency: fastn-community.github.io/midnight-rush
 
 
 -- fastn.auto-import: theme
@@ -28,6 +29,7 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 # FAQs: /#faqs
 # Blog: /blog/
 - Sample Post: /sample-post/
+# Pricing: /pricing/
 
 # User Manual: /user-manual/
   skip: true

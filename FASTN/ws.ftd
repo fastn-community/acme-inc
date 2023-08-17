@@ -3,7 +3,7 @@ export: terms
 -- import: theme
 export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item, featured-post, posts, h2, h3, markdown, post-card, post, image
 
--- ftd.image-src fastn-logo: https://fastn.com/-/fastn.com/images/fastn.svg
+-- ftd.image-src acme-logo: $assets.files.assets.acme-logo.svg
 
 
 
@@ -23,8 +23,8 @@ ftd.ui list right-sidebar:
 optional string document-title: fastn web site template. Build Your Own Website with Ease
 optional string document-description: Simple, easy-to-use web site template to build your own start-up website. Change colours and typography effortlessly.
 ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
-optional string site-name: Acme Inc.
-optional ftd.image-src site-logo:
+optional string site-name: 
+optional ftd.image-src site-logo: $acme-logo
 boolean full-width: true
 boolean blog: false
 boolean show-banner: false
@@ -35,8 +35,8 @@ optional boolean github-icon: false
 optional string github-url: 
 boolean breadcrumb: false
 boolean login-button: false
-integer logo-width: $common.logo-width
-integer logo-height: $common.logo-height
+integer logo-width: 200
+integer logo-height: 48
 
 -- theme.page: $page.title
 site-logo: $page.site-logo
