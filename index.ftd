@@ -1,15 +1,11 @@
 -- ws.page:
 
--- ws.page.popup:
 
--- ws.terms:
 
--- end: ws.page.popup
-
--- ws.hero-with-image: We transform ideas into digital outcomes.
-cta-primary: Learn More
+-- ws.hero-primary:  We transform ideas into digital outcomes.
+hero-image: $assets.files.assets.hero-img.jpg
+cta-primary: Learn more
 cta-primary-link: #about
-image: $assets.files.assets.landing.png
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
@@ -21,7 +17,7 @@ Fastn is an all-in-one payments platform where businesses can connect, transact,
 and grow together.
 
 -- ws.hero-image-left: Create
-image: $assets.files.assets.left-img1.jpg
+image: $assets.files.assets.featured.png
 
 Welcome Studio gives you all the tools you need to create and host virtual
 experiences that look awesome and put your brand centerstage.
@@ -37,12 +33,6 @@ image: $assets.files.assets.left-img2.jpg
 
 Welcome Studio gives you all the tools you need to create and host virtual
 experiences that look awesome and put your brand centerstage.
-
--- ws.hero-with-image: Experiences
-image: $assets.files.assets.landing.png
-align-right: true
-
-Lorem ipsum dolor sit amet
 
 -- ws.banner-card: SEE HOW MUCH FASTER YOU CAN GET PAID WITH FASTN
 info-cards: $common.list-of-info-cards
