@@ -20,8 +20,7 @@ subscription: monthly
 feature-list: $pricing.free-feature-list
 cta-text: Get Started
 cta-link: /pricing/
-body-title: For Individuals
-tag: Basic Plan
+body-title: For startups
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
@@ -48,8 +47,7 @@ subscription: monthly
 feature-list: $pricing.enterprise-feature-list
 cta-text: Get Started
 cta-link: /pricing/
-body-title: For Enterprises
-tag: Recommended
+body-title: For startups
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
