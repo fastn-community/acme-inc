@@ -1,4 +1,5 @@
 -- import: fastn-community.github.io/acme-inc/blog-meta/patrica
+-- import: fastn-community.github.io/acme-inc/blog-meta/nandhini
 
 -- common.post-meta meta: Understanding concepts of Article 16
 post-image: $assets.files.assets.post2.png
@@ -27,5 +28,5 @@ Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 -- common.post-meta meta3: Understanding concepts of Article 16
 post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
-author: $patrica.patrica
+author: $nandhini.nandhini
 post-url: /sample-post/

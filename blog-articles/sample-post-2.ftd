@@ -1,55 +1,10 @@
-
-
--- common.author-meta patrica: Nandini Devi
-profile: CEO & Founder
-bio-url: /sample-post/
-image: $assets.files.assets.nandhini-devi.jpg
-company: Acme Inc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-
--- common.post-meta meta: Understanding concepts of Article 16
-post-image: $assets.files.assets.post2.png
-post-url: /sample-post/
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
-
--- common.post-meta meta1: Understanding concepts of Article 17
-post-image: $assets.files.assets.featured.png
-image: $assets.files.assets.avatar.png
-author: $patrica
-post-url: /sample-post/
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta2: Understanding concepts of Article 20
-post-image: $assets.files.assets.post2.png
-image: $assets.files.assets.avatar.png
-author: $patrica
-post-url: /sample-post/
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta3: Understanding concepts of Article 16
-image: $assets.files.assets.avatar.png
-author: $patrica
-
-
-
-
-
-
-
-
-
+-- import: fastn-community.github.io/acme-inc/blog-meta/meta
 
 -- ws.page:
 blog: true
 
 -- ws.post:
-meta: $meta3
+meta: $meta.meta3
 
 -- ws.image: Bringing the world together through live experiences.
 src: $assets.files.assets.card1.png
