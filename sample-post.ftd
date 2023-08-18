@@ -20,13 +20,15 @@ post-image: $assets.files.assets.post2.png
 image: $assets.files.assets.avatar.png
 author: $sample-post-1.patrica
 post-url: /sample-post/
+published-on: 14th Jan 2023 14.45IST
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
 -- common.post-meta meta3: Bringing the world together through live experiences.
 image: $assets.files.assets.avatar.png
 author: $sample-post-1.patrica
-
+published-on: 14th Jan 2023 14.45IST
+post-url: /sample-post/
 
 
 
