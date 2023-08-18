@@ -25,8 +25,8 @@ post-url: /sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
--- common.post-meta meta3: Understanding concepts of Article 16
-post-image: $assets.files.assets.post1.png
+-- common.post-meta post-2: Understanding concepts of Article 16
+post-image: $assets.files.assets.post2.png
 image: $assets.files.assets.avatar.png
 author: $nandhini.nandhini
 post-url: /blog-articles/sample-post/

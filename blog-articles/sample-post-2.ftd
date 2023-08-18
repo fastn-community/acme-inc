@@ -4,12 +4,7 @@
 blog: true
 
 -- ws.post:
-meta: $meta.meta3
-
--- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card1.png
-alignment: center
-width: fill-container
+meta: $meta.post-2
 
 -- ws.h3: Understanding concepts of Article 16
 
