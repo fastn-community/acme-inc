@@ -1,19 +1,8 @@
 -- import: fastn-community.github.io/acme-inc/blog-meta/meta
 
 
--- ws.page:
-blog: true
-
--- ws.post:
-meta: $meta.meta3
-
--- ws.image:
-src: $assets.files.assets.blog.png
-width: auto
-
--- ws.h3: Bringing the world together through live experiences.
-
--- ws.markdown:
+-- ws.article: Bringing the world together through live experiences.
+post: $meta.meta3
 
 I’m an expert on how technology hijacks our psychological vulnerabilities.
 That’s why I spent the last three years as a Design Ethicist at Google caring
@@ -197,4 +186,4 @@ getting hijacked.
 When using technology, we often focus optimistically on all the things it does
 for us. But I want to show you where it might do the opposite.
 
--- end: ws.page
+-- end: ws.article
