@@ -1,7 +1,7 @@
 -- import: fastn-community.github.io/code-block as cb
 -- import: theme/header as h
--- import: fastn-community.github.io/midnight-storm-cs
--- import: fastn-community.github.io/midnight-storm-typography
+-- import: cs
+-- import: typo
 
 
 -- site-doc.doc-home: Header
@@ -13,8 +13,8 @@ site-title: Acme Inc landing page
 -- site-doc.header: Demo
 
 -- site-doc.output:
-colors: $midnight-storm-cs.main
-types: $midnight-storm-typography.types
+colors: $cs.main
+types: $typo.types
 
 -- h.header:
 sections: $common.sitemap.sections
