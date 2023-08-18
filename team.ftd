@@ -1,4 +1,5 @@
 -- import: theme/team
+-- import: fastn-community.github.io/bling/quote
 
 
 -- ws.page: 
@@ -45,5 +46,13 @@ Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 -- end: team.team.members
 
 -- end: team.team
+
+-- quote.charcoal: Nandhini Devi
+label: CEO & Founder
+avatar: $assets.files.assets.nandhini-devi.jpg
+logo: $assets.files.assets.acme-logo.svg
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua..
 
 -- end: ws.page
