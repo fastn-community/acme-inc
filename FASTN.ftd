@@ -10,7 +10,6 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.dependency: fastn-community.github.io/code-block
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs as cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography as typo
--- fastn.dependency: fastn-community.github.io/midnight-rush
 -- fastn.dependency: saurabh-lohiya.github.io/hero
 
 
