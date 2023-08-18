@@ -34,13 +34,13 @@ Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
 -- team.member: Nandhini Devi
 profile: CEO & Founder
-image: https://www.fifthtry.com/-/fifthtry.com/images/team/nandhini-devi.jpg
+image: $assets.files.assets.nandhini-devi.jpg
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
 -- team.member: Ajit Garg
 profile: VP of Marketing
-image: https://www.fifthtry.com/-/fifthtry.com/images/team/ajit.jpg
+image: $assets.files.assets.ajit-garg.jpg
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
