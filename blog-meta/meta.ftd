@@ -29,4 +29,4 @@ Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
 author: $nandhini.nandhini
-post-url: /sample-post/
+post-url: /blog-articles/sample-post/
