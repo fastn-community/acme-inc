@@ -110,7 +110,7 @@ children uis:
 
 
 -- page:
-article: true
+blog: true
 
 -- post:
 meta: $article.post
