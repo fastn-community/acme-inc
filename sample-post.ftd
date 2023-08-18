@@ -1,48 +1,11 @@
--- import: fastn-community.github.io/acme-inc/blog-articles/sample-post-1
-
--- common.post-meta meta: We Transform ideas into digital outcomes.
-post-image: $assets.files.assets.featured.png
-post-url: /sample-post/
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
-
--- common.post-meta meta1:
-post-image: $assets.files.assets.post1.png
-image: $assets.files.assets.avatar.png
-author: $sample-post-1.patrica
-post-url: /sample-post/
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta2:
-post-image: $assets.files.assets.post2.png
-image: $assets.files.assets.avatar.png
-author: $sample-post-1.patrica
-post-url: /sample-post/
-published-on: 14th Jan 2023 14.45IST
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta3: Bringing the world together through live experiences.
-image: $assets.files.assets.avatar.png
-author: $sample-post-1.patrica
-published-on: 14th Jan 2023 14.45IST
-post-url: /sample-post/
-
-
-
-
-
-
-
+-- import: fastn-community.github.io/acme-inc/blog-meta/meta
 
 
 -- ws.page:
 blog: true
 
 -- ws.post:
-meta: $meta3
+meta: $meta.meta3
 
 -- ws.image:
 src: $assets.files.assets.blog.png
