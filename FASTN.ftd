@@ -26,8 +26,9 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 # About Us: /team/
 # Pricing: /pricing/
 # Blog: /blog/
-- Sample Post: /sample-post/
-
+- Color Support: /color-support/
+  document: /blog-articles/sample-post-1.ftd
+  
 # User Manual: /user-manual/
   skip: true
 
@@ -39,3 +40,6 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
   - Logo: /user-manual/header/#site-logo
   - Logo Height and Width: /user-manual/header/#height-width
   - Navbar: /user-manual/header/#navbar
+
+
+-- fastn.redirects:
