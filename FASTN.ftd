@@ -39,3 +39,8 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
   - Logo: /user-manual/header/#site-logo
   - Logo Height and Width: /user-manual/header/#height-width
   - Navbar: /user-manual/header/#navbar
+
+
+-- fastn.redirects:
+
+/diwali-dhamaka-offer/: /offers/
