@@ -3,7 +3,7 @@
 -- common.author-meta patrica: Nandini Devi
 profile: CEO & Founder
 bio-url: /sample-post/
-image: https://www.fifthtry.com/-/fifthtry.com/images/team/nandhini-devi.jpg
+image: $assets.files.assets.nandhini-devi.jpg
 company: Acme Inc.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
