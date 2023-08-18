@@ -1,14 +1,9 @@
 -- import: fastn-community.github.io/acme-inc/blog-meta/meta
 
--- ws.page:
-blog: true
 
--- ws.post:
-meta: $meta.post-2
+-- ws.article: Understanding concepts of Article 16
+post: $meta.post-2
 
--- ws.h3: Understanding concepts of Article 16
-
--- ws.markdown:
 
 Where does technology exploit our minds’ weaknesses?
 
@@ -115,4 +110,4 @@ how to push people’s buttons, you can play them like a piano.
 I learned to think this way when I was a magician. Magicians start by looking
 for blind spots, edges, 
 
--- end: ws.page
+-- end: ws.article
