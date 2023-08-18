@@ -1,6 +1,6 @@
 -- import: fastn-community.github.io/acme-inc/blog-meta/patrica
 
--- common.post-meta meta: Understanding concepts of Article 16
+-- common.post-meta meta: Achme launches in new cities 
 post-image: $assets.files.assets.post2.png
 author: $patrica.patrica
 post-url: /sample-post/
@@ -8,7 +8,7 @@ post-url: /sample-post/
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
 doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
 
--- common.post-meta meta1: Understanding concepts of Article 17
+-- common.post-meta meta1: New product launch event
 post-image: $assets.files.assets.featured.png
 image: $assets.files.assets.avatar.png
 author: $patrica.patrica
@@ -16,7 +16,7 @@ post-url: /sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
--- common.post-meta meta2: Understanding concepts of Article 20
+-- common.post-meta meta2: We Transform ideas into digital outcomes.
 post-image: $assets.files.assets.post2.png
 image: $assets.files.assets.avatar.png
 author: $patrica.patrica
@@ -24,7 +24,7 @@ post-url: /sample-post/
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
--- common.post-meta meta3: Understanding concepts of Article 16
+-- common.post-meta meta3: Bringing the world together through live experiences.
 post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
 author: $patrica.patrica
