@@ -43,4 +43,4 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 
 -- fastn.redirects:
 
-/acme-launches-new-product/: /blog-articles/sample-post-1/
+/blog-articles/sample-post-1/: /launching-color-support/
