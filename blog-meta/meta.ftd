@@ -1,7 +1,7 @@
 -- import: fastn-community.github.io/acme-inc/blog-meta/patrica
 -- import: fastn-community.github.io/acme-inc/blog-meta/nandhini
 
--- common.post-meta meta: Achme launches in new cities 
+-- common.post-meta meta: Acme launches in new cities
 post-image: $assets.files.assets.post2.png
 author: $patrica.patrica
 post-url: /sample-post/
