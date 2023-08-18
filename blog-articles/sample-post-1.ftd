@@ -1,59 +1,10 @@
-
-
--- common.author-meta patrica: Patrica AVA
-profile: UI Designer
-bio-url: /sample-post/
-image: $assets.files.assets.avatar.png
-company: Acme Inc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-
--- common.post-meta meta: We Transform ideas into digital outcomes.
-author: $patrica
-post-image: $assets.files.assets.featured.png
-post-url: /sample-post/
-published-on: 18th Jan 2023
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-doloremque laudantium, rem aperiam, eaque ipsa quae ab illo inventore 
-
--- common.post-meta meta1: We Transform ideas into digital outcomes.
-post-image: $assets.files.assets.post1.png
-image: $assets.files.assets.avatar.png
-author: $patrica
-post-url: /sample-post/
-published-on: 11th Feb 2023
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta2: Bringing the world together through live experiences.
-post-image: $assets.files.assets.post2.png
-image: $assets.files.assets.avatar.png
-author: $patrica
-post-url: /sample-post/
-published-on: 16th Mar 2023
-
-Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
-
--- common.post-meta meta3: Bringing the world together through live experiences.
-image: $assets.files.assets.avatar.png
-author: $patrica
-
-
-
-
-
-
-
-
-
+-- import: fastn-community.github.io/acme-inc/blog-meta/meta
 
 -- ws.page:
 blog: true
 
 -- ws.post:
-meta: $meta3
+meta: $meta.meta3
 
 -- ws.image:
 src: $assets.files.assets.blog.png
