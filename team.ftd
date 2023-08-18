@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
 -- team.member: Ayush Soni
 profile: VP of Product
-image: https://www.fifthtry.com/-/fifthtry.com/images/team/ayush-soni.jpg
+image: $assets.files.assets.ayush-soni.jpg
 
 Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
