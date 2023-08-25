@@ -19,7 +19,7 @@ they can influence what people do without them even realizing it. Once you know
 how to push people’s buttons, you can play them like a piano.
 
 -- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card1.png
+src: $assets.files.assets.card1.jpg
 alignment: center
 width: fill-container
 
@@ -60,12 +60,12 @@ they can influence what people do without them even realizing it. Once you know
 how to push people’s buttons, you can play them like a piano.
 
 -- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card2.png
+src: $assets.files.assets.card2.jpg
 alignment: center
 width: fill-container
 
 -- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card3.png
+src: $assets.files.assets.card3.jpg
 alignment: center
 width: fill-container
 
@@ -106,7 +106,7 @@ they can influence what people do without them even realizing it. Once you know
 how to push people’s buttons, you can play them like a piano.
 
 -- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card4.png
+src: $assets.files.assets.card4.jpg
 alignment: center
 width: fill-container
 
@@ -131,7 +131,7 @@ I learned to think this way when I was a magician. Magicians start by looking
 for blind spots, edges, 
 
 -- ws.image: Bringing the world together through live experiences.
-src: $assets.files.assets.card5.png
+src: $assets.files.assets.card5.jpg
 alignment: center
 width: fill-container
 

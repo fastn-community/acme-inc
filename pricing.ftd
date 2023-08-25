@@ -1,59 +1,53 @@
--- import: theme/pricing
-
 -- ws.page:
 
--- pricing.pricing: Incredibly Easy To Use, But Surprisingly Powerful
+-- ws.pricing: Incredibly Easy To Use, But Surprisingly Powerful
 
--- pricing.pricing.body:
+-- ws.pricing.body:
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique. consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
 
--- pricing.pricing.pricing-cards:
+-- ws.pricing.pricing-cards:
 
--- pricing.pricing-card: Free Plan
+-- ws.pricing-card: Starter
 active: false 
 price: 0
 currency: \$
-subscription: monthly
-feature-list: $pricing.free-feature-list
+subscription: mo
+feature-list: $common.free-feature-list
 cta-text: Get Started
 cta-link: /pricing/
-body-title: For startups
 
-Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
-in eros elementum tristique.
+Lorem ipsum dolor sit amet, consectet adipiscing elit.
 
--- pricing.pricing-card: Startup Plan
+-- ws.pricing-card: Basic
 active: true 
 price: 99
 currency: \$
-subscription: monthly
-feature-list: $pricing.startup-feature-list
+subscription: mo
+feature-list: $common.startup-feature-list
 cta-text: Get Started
 cta-link: /pricing/
-body-title: For startups
-tag: Best Plan
 
-Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
-in eros elementum tristique.
+Lorem ipsum dolor sit amet, consectet adipiscing elit.
 
--- pricing.pricing-card: Enterprise Plan
+-- ws.pricing-card: Advanced
 active: false 
 price: 153
 currency: \$
-subscription: monthly
-feature-list: $pricing.enterprise-feature-list
+subscription: mo
+feature-list: $common.enterprise-feature-list
 cta-text: Get Started
 cta-link: /pricing/
-body-title: For startups
 
-Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
-in eros elementum tristique.
+Lorem ipsum dolor sit amet, consectet adipiscing elit.
 
--- end: pricing.pricing.pricing-cards
+-- end: ws.pricing.pricing-cards
 
--- end: pricing.pricing
+-- end: ws.pricing
+
+-- ws.client-card: Trusted by the top companies in this industry
+client-list: $common.list-of-clients
 
 -- end: ws.page

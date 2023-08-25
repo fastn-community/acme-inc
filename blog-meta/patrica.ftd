@@ -1,8 +1,17 @@
 -- common.author-meta patrica: Patrica AVA
 profile: UI Designer
-bio-url: /sample-post/
+bio-url: blog-meta/patrica/
 image: $assets.files.assets.avatar.png
-company: Acme Inc.
+company: Agiglesoft Inc.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua
+
+
+
+-- ws.page: 
+
+-- ws.author-bio: 
+author: $patrica
+
+-- end: ws.page

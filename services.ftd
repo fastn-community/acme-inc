@@ -1,44 +1,41 @@
 -- ws.page:
 
--- ws.hero-image-right: Easy payments  and invoicing
-image: $assets.files.assets.invoicing.png
-link: /pricing/
-cta-primary: Check out pricing
-cta-primary-link: /pricing/
+-- ws.hero-bottom-hug: Place your business at the top of search engines
+image: $assets.files.assets.back-img.jpg
 
-Pay and get paid like never before. Auto-generate promo-banners, send reminders, schedule payments, and instantly access money when someone pays you.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+doloremque laudantium
 
-
--- ws.hero-image-left: Analyze
-image: $assets.files.assets.right-img.jpg
-
-Welcome Studio gives you all the tools you need to create and host virtual
-experiences that look awesome and put your brand centerstage.
-
--- ws.features-card: We Transform ideas into digital outcomes
+-- ws.features-card: We make your business gain more revenue at a glance
 features: $common.list-of-features
-tag: KICKER
 
-We are an award-winning strategic design company that provides consultancy
-services and help you create outstanding digital products.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.
 
--- ws.banner-card: SEE HOW MUCH FASTER YOU CAN GET PAID WITH FASTN
+-- ws.banner-card: See how much faster you can get paid with fastn
 info-cards: $common.list-of-info-cards
 
 Use our calculator to see how many days we can free up in cash flow for your
 business.
 
--- ws.hero-image-left: Engage
-image: $assets.files.assets.right-img.jpg
+-- ws.client-card: Fastn is loved and trusted by thousands
+client-list: $common.list-of-clients
 
-Welcome Studio gives you all the tools you need to create and host virtual
-experiences that look awesome and put your brand centerstage.
+-- ws.testimonials-card: All we do is dream and craft amazing products
+testimonials: $common.list-of-testimonials
 
--- ws.logo-cloud: Trusted by the top companies in this industry
-logo-list: $common.list-of-logos
+-- ws.cta-left-hug: Create a workflow that works for you
+tag: DATA INTEGRATION
+image: $assets.files.assets.hero-image.jpg
 
-The only SaaS business platform that combines CRM, marketing automation &
-commerce.
+Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor
+turpis vitae dolor luctus placerat magna and ligula cursus purus vitae purus an
+ipsum suscipit
 
+- I am dummy pointer text.
+
+- I am dummy pointer text.
+
+- I am dummy pointer text.
 
 -- end: ws.page

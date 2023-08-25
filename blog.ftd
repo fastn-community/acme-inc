@@ -18,12 +18,7 @@ cta-primary-url: /sample-post/
 
 -- end: ws.page.hero
 
--- ws.posts:
-
--- ws.markdown:
-
-Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac
-imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.
+-- ws.posts: Our Posts
 
 -- ws.post-card:
 post-data: $meta.meta1
