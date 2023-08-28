@@ -6,7 +6,6 @@ favicon: /-/fastn-community.github.io/acme-inc/favicon.ico
 -- fastn.dependency: fastn-community.github.io/midnight-rush as theme
 -- fastn.dependency: fastn-community.github.io/acme-inc
 -- fastn.dependency: fastn-community.github.io/site-doc
--- fastn.dependency: fastn-community.github.io/bling
 -- fastn.dependency: fastn-community.github.io/typography
 -- fastn.dependency: fastn-community.github.io/code-block
 -- fastn.dependency: fastn-community.github.io/midnight-rush-cs as cs
