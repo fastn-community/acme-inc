@@ -11,7 +11,7 @@ padding-top.px: 64
 -- end: ftd.column
 
 -- ws.featured-post:
-post-data: $meta.meta
+post-data: $meta.meta3
 info: Small Incidental Text.
 cta-primary: Read more
 cta-primary-url: /sample-post/
