@@ -1,11 +1,10 @@
--- import: theme/team
--- import: fastn-community.github.io/bling/quote
+-- import: fastn-community.github.io/midnight-storm/team
 
 
 -- ws.page: 
 
--- ws.hero-primary:  We Transform ideas into digital outcomes.
-hero-image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
+-- ws.hero-right-hug:  We Transform ideas into digital outcomes.
+image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
 
 We are an award-winning strategic design company that provides 
 consultancy services and help you create outstanding digital products.
@@ -53,12 +52,5 @@ Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
 
 -- end: team.team
 
--- quote.charcoal: Nandhini Devi
-label: CEO & Founder
-avatar: $assets.files.assets.nandhini-devi.jpg
-logo: $assets.files.assets.acme-logo.svg
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua..
 
 -- end: ws.page
