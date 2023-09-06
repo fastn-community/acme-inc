@@ -1,10 +1,10 @@
--- import: theme/team
+-- import: fastn-community.github.io/midnight-storm/team
 
 
 -- ws.page: 
 
--- ws.hero-primary:  We Transform ideas into digital outcomes.
-hero-image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
+-- ws.hero-right-hug:  We Transform ideas into digital outcomes.
+image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
 
 We are an award-winning strategic design company that provides 
 consultancy services and help you create outstanding digital products.

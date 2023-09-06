@@ -1,4 +1,5 @@
--- import: fastn-community.github.io/acme-inc/blog-meta/patrica
+-- import: fastn-community.github.io/midnight-storm/common
+-- import: acme.fastn.com/blog-meta/patrica
 
 -- common.post-meta meta: Acme launches in new cities
 post-image: $assets.files.assets.post2.png
