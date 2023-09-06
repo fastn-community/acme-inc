@@ -1,6 +1,7 @@
+-- import: fastn-community.github.io/site-doc
 
 -- site-doc.doc-home: Acme Inc landing page
-current-package: fastn-community.github.io/acme-inc
+current-package: acme.fastn.com
 show-tabs: false
 github-url: https://github.com/fastn-community/midnight-storm-ws
 site-title: Acme Inc landing page

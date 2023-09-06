@@ -1,16 +1,12 @@
--- import: theme/pricing
+-- import: fastn-community.github.io/midnight-storm/pricing
 
 -- ws.page:
 
 -- pricing.pricing: Incredibly Easy To Use, But Surprisingly Powerful
 
--- pricing.pricing.body:
-
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique. consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
-
--- pricing.pricing.pricing-cards:
 
 -- pricing.pricing-card: Free Plan
 active: false 
@@ -51,8 +47,6 @@ body-title: For startups
 
 Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
 in eros elementum tristique.
-
--- end: pricing.pricing.pricing-cards
 
 -- end: pricing.pricing
 
