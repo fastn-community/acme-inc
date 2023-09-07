@@ -3,8 +3,7 @@
 -- import: saurabh-lohiya.github.io/hero
 export: hero-right-hug
 -- import: acme.fastn.com/tnc
--- import: fastn-community.github.io/midnight-storm/common
--- import: fastn-community.github.io/midnight-storm
+-- import: theme
 export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item, featured-post, posts, h2, h3, markdown, post-card, post, image, contact-us, row-container, contact-form, iframe
 exposing: markdown, post, h3
 
@@ -42,7 +41,7 @@ boolean login-button: false
 integer logo-width: $common.logo-width
 integer logo-height: 28
 
--- midnight-storm.page: $page.title
+-- theme.page: $page.title
 site-logo: $page.site-logo
 site-name: $page.site-name
 body: $page.body
@@ -66,18 +65,18 @@ logo-height: $page.logo-height
 colors: $cs.main
 types: $typo.types
 
--- midnight-storm.page.popup:
+-- theme.page.popup:
 
 -- tnc.terms:
 
--- end: midnight-storm.page.popup
+-- end: theme.page.popup
 
 
--- midnight-storm.page.footer:
+-- theme.page.footer:
 
--- midnight-storm.footer-badge: Copyright © 2023 Acme Inc.
+-- theme.footer-badge: Copyright © 2023 Acme Inc.
 
--- end: midnight-storm.page.footer
+-- end: theme.page.footer
 
 -- ftd.column:
 spacing.fixed.em: 0.8
@@ -86,7 +85,7 @@ children: $page.wrapper
 
 -- end: ftd.column
 
--- end: midnight-storm.page
+-- end: theme.page
 
 -- end: page
 
