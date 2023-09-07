@@ -2,7 +2,7 @@
 
 -- fastn.package: acme.fastn.com
 
--- fastn.dependency: fastn-community.github.io/midnight-storm as theme
+-- fastn.dependency: fastn-community.github.io/midnight-rush as theme
 -- fastn.dependency: acme.fastn.com
 -- fastn.dependency: fastn-community.github.io/site-doc
 -- fastn.dependency: fastn-community.github.io/typography
