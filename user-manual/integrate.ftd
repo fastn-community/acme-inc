@@ -60,7 +60,7 @@ margin-vertical.px: 16
 -- cb.code:
 lang: ftd
 
-\-- fastn.dependency: fastn-community.github.io/midnight-storm-spa
+\-- fastn.dependency: theme-spa
 
 -- site-doc.markdown:
 
