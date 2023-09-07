@@ -1,6 +1,6 @@
 # Overview
 
-[MS-SPA](https://fastn-community.github.io/midnight-storm/) will help
+[MS-SPA](https://theme/) will help
 you create a beautiful single page application(SPA) site in no time.
 
 It provides out-of-the-box documentation features that can be used to create your business site with fastn language.
@@ -11,14 +11,14 @@ It provides out-of-the-box documentation features that can be used to create you
 
 ## Get Rolling
 
-[Click here](https://fastn-community.github.io/midnight-storm/) to learn how to use this template.
+[Click here](https://theme/) to learn how to use this template.
 
-# [Dive into the Docs](https://fastn-community.github.io/midnight-storm/)
+# [Dive into the Docs](https://theme/)
 
 # See it in Action!
 
 Explore websites and projects that have utilized this component/template 
-**[here](https://fastn-community.github.io/midnight-storm/)** for
+**[here](https://theme/)** for
 inspiration.
 
 ## fastn and Curious?
