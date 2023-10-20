@@ -1,7 +1,6 @@
 # Overview
 
-[MS-SPA](https://theme/) will help
-you create a beautiful single page application(SPA) site in no time.
+[`fastn`](https://github.com/fastn-stack/fastn) helps you create beautiful sites in no time.
 
 It provides out-of-the-box documentation features that can be used to create your business site with fastn language.
 
