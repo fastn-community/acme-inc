@@ -1,0 +1,9 @@
+-- import: fastn-community.github.io/midnight-storm/common
+
+-- common.author-meta nandhini: Nandhini Devi
+profile: CEO & Founder
+bio-url: /sample-post/
+image: $assets.files.assets.nandhini-devi.jpg
+company: Acme Inc.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

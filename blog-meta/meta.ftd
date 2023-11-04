@@ -1,3 +1,4 @@
+-- import: acme.fastn.com/blog-meta/nandhini
 -- import: acme.fastn.com/blog-meta/patrica
 
 -- common.post-meta meta: Acme launches in new cities
@@ -32,4 +33,10 @@ post-image: $assets.files.assets.post1.png
 image: $assets.files.assets.avatar.png
 author: $patrica.patrica
 post-url: /sample-post/
+
+-- common.post-meta post-2: Understanding concepts of Article 16
+post-image: $assets.files.assets.post2.png
+image: $assets.files.assets.avatar.png
+author: $nandhini.nandhini
+post-url: /blog-articles/sample-post/
 published-on: 2nd Jan 2023
