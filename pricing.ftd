@@ -23,7 +23,7 @@ in eros elementum tristique.
 
 -- pricing.pricing-card: Startup Plan
 active: true 
-price: 99
+price: 89
 currency: \$
 subscription: monthly
 feature-list: $pricing.startup-feature-list
@@ -37,7 +37,7 @@ in eros elementum tristique.
 
 -- pricing.pricing-card: Enterprise Plan
 active: false 
-price: 153
+price: 135
 currency: \$
 subscription: monthly
 feature-list: $pricing.enterprise-feature-list
